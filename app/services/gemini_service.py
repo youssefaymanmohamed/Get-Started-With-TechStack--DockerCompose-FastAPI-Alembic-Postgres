@@ -2,6 +2,7 @@ import google.generativeai as genai
 import os 
 from app.core.config import settings
 import regex as re
+from dotenv import load_dotenv
 
 genai.configure(api_key=settings.GEMINI_API_KEY)
 
